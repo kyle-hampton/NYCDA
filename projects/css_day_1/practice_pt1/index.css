@@ -1,0 +1,15 @@
+.paragraph1{
+  color: maroon;
+  width: 22%;
+  height: 22%;
+  border: 2px solid purple;
+  margin-top: 30px;
+  padding: 40px;
+  font-size: 20px;
+}
+#sentence{
+  color: blue;
+  font-family: fantasy;
+  display: inline-block;
+  border: 2px solid blue;
+}

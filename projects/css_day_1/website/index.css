@@ -1,0 +1,109 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-image: linear-gradient(#65FCFF, #7165FF);
+}
+
+.navbar{
+  border: 2px solid;
+  background-color: #65FCFF;
+  width: 60%;
+  margin: 0px auto;
+  text-align: center;
+  box-shadow: 10px 10px 25px teal;
+  border-radius: 10px;
+}
+.navbar ul{
+  /* border: 1px solid red; */
+  list-style: none;
+  overflow: scroll;
+}
+
+.navbar ul li{
+  box-shadow: 10px 10px 25px teal;
+  border-radius: 10px;
+  display: inline-block;
+  /* float: left; */
+  margin: 10px 20px;
+}
+.navbar ul li a{
+  text-decoration: none;
+  color: #7165FF;
+  padding: 10px;
+}
+.navbar ul li:hover{
+  background-color: white;
+}
+.title{
+  border: 2px solid black;
+  width: 50%;
+  margin: 80px auto;
+  text-align: center;
+  box-shadow: 10px 10px 25px teal;
+  border-radius: 10px;
+  background-color: #72B2FF;
+  color: #7165FF;
+}
+
+.article{
+  border: 2px solid #7165FF;
+  margin: 20px auto;
+  width: 70%;
+  box-shadow: 10px 10px 25px teal;
+  border-radius: 10px;
+  padding: 10px;
+}
+.article img{
+  float: left;
+  border: 3px solid #7165FF;
+  margin-right: 10px;
+}
+.image-container{
+  border: 2px solid #7165FF;
+  width: 80%;
+  margin: 80px auto;
+  /* height: 200px; */
+  text-align: center;
+  box-shadow: 10px 10px 25px teal;
+  border-radius: 10px;
+  background-color: #72B2FF;
+}
+.image-gallery{
+  width: 200px;
+  height: 200px;
+  border: 1px solid #7165FF;
+  box-shadow: 10px 10px 25px teal;
+  /* float: left; */
+  display: inline-block;
+  margin: 10px 40px;
+
+}
+#athens{
+  background-image: url("img/athens.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  border-radius: 10px;
+}
+#lubljana{
+  background-image: url("img/ljubljana.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  border-radius: 10px;
+}
+#budapest{
+  background-image: url("img/budapest.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  border-radius: 10px;
+}
+.footer{
+  width: 100%;
+  background-color: #7165FF;
+  border: 2px solid;
+  border-radius: 10px;
+  text-align: center;
+  height: 100px;
+  line-height: 100px
+}
